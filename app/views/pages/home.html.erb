@@ -8,7 +8,7 @@
 </head>
 <body>
   <div id="header">
-    <p id="name">Sam Spurrell - <a href = "/about">About</a></p>
+    <p id="name">Sam Spurrell</p>
     <a href="mailto:samspurrell@gmail.com">
       <p id="email">samspurrell@gmail.com</p>
     </a>
@@ -16,9 +16,8 @@
   <div class="container">
   <div class="left"></div>
   <div class="right">
-    <img id="codepic" src="http://www.softwarecornwall.org/wp-content/uploads/2015/07/code.jpg">
-    <h4>Objective</h4>
-    <p>To build a rails app</p>
+    <h4>Go to Articles</h4>
+    <p><%= link_to "Articles written by Sam", articles_path %> | <%= link_to "About", about_path %></p>
     <h4>Experience</h4>
     <p>Junior Developer, Software Company (2010 - Present)</p>
     <ul>
